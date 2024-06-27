@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.box {
+  border-style: solid;
+  border-color: #69d33c;
+} img {
+  position: absolute;
+  left: 1%;
+} h1 {
+  position: absolute;
+  left: 7%;
+  top: 3%;
+}
+.games {
+  color: black;
+} a {
+  position: absolute;
+  color: #000000;
+  left: 90%;
+}
+
+.rectangle {
+  position: absolute;
+  top: 13%;
+  left: 0%;
+  height: 800px;
+  width: 100%;
+  background-color: #616161;
+}
+
+.main {
+  background-color: #555;
+} p {
+  font-size: xxx-large;
+  position: absolute;
+  left: 28%;
+  top: 30%;
+}
+
+.game-tag {
+  font-size: x-large;
+} h3 {
+  position: absolute;
+  top: 30%;
+  left: 10%
+} h2 {
+  position: absolute;
+  top: 10%;
+  left: 40%
+}
+
+.info {
+  position: absolute;
+  top: 30%;
+  left: 10%
+}
+
+.bottomtaskbar {
+  position: absolute;
+  top: 75%;
+  left: 0%;
+  height: 250px;
+  width: 100%;
+  background-color: #322f2f;
+}
