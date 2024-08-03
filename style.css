@@ -31,6 +31,11 @@ html {
   height: 800px;
   width: 100%;
   background-color: #E7E7E7;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 .main {
