@@ -25,7 +25,6 @@ html {
 }
 
 .rectangle {
-  position: absolute;
   background-color: #E7E7E7;
   border-radius: 25px;
   background: #73AD21;
