@@ -32,3 +32,9 @@ html, body {
     position: relative;
     top: -10px; /* Adjust this value to move closer to the h2 */
 }
+
+.rectangle {
+    width:200px;
+    height:100px;
+    background:blue;
+}
