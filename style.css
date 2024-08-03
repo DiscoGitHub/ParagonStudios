@@ -1,70 +1,23 @@
-html {
-  height: 100%;
-  width: 100%;
+@font-face {
+    font-family: 'headerfont'; /*a name to be used later*/
+    src: url('headerfont.otf'); /*URL to font*/
 }
 
-
-
-.box {
-  border-style: solid;
-  border-color: #2A1C33;
-} img {
-  position: absolute;
-  left: 1%;
-} h1 {
-  position: absolute;
-  left: 7%;
-  top: 3%;
-}
-.games {
-  color: black;
-} a {
-  position: absolute;
-  color: #000000;
-  left: 90%;
+body {
+  background-color: #1f1e1d;
 }
 
-.rectangle {
-  background-color: #2A1C33;
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 700px;
+.mainheader h2 {
+  color: white;
+  font-family: 'headerfont';
+  font-size: 500%;
+  position: relative;
+  left: 35%;
 }
-
-.main {
-  background-color: #84929F;
-} p {
-  font-size: xxx-large;
-  position: absolute;
-  left: 28%;
-  top: 30%;
-}
-
-.game-tag {
-  font-size: x-large;
-} h3 {
-  position: absolute;
-  top: 30%;
-  left: 10%
-} h2 {
-  position: absolute;
-  top: 10%;
-  left: 40%
-}
-
-.info {
-  position: absolute;
-  top: 30%;
-  left: 10%
-}
-
-.bottomtaskbar {
-  position: absolute;
-  top: 75%;
-  left: 0%;
-  height: 250px;
-  width: 100%;
-  background-color: #353131;
+a {
+  position: relative;    /* Ensure the anchor can be moved */
+  left: 45%;             /* Move the anchor 10% to the right */
+  color: orange;         /* Change the text color to orange */
+  text-decoration: none; /* Remove the underline */
+  font-size: 150%;       /* Set the font size to 10px */
 }
