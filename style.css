@@ -10,18 +10,6 @@ html, body {
     background-color: #1f1e1d;
 }
 
-.mainheader {
-    width: 100%;
-    text-align: center; /* Center elements inside the header */
-    position: relative; /* Establish a positioning context */
-}
-
-.mainheader h2 {
-    color: white;
-    font-family: 'headerfont';
-    font-size: 5em; /* Adjusted for readability */
-    margin: 0; /* Remove default margin */
-}
 
 .mainheader a {
     color: orange; /* Change the text color to orange */
@@ -34,11 +22,7 @@ html, body {
 }
 
 
-#rectangle {
-    /* Add styles for #rectangle if needed */
-}
-
 .mainheader img {
     position: absolute;
-    left: 30%; /* Use 'left' to move it to the right from the left side */
+    left: 50%; /* Use 'left' to move it to the right from the left side */
 }
