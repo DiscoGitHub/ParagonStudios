@@ -1,23 +1,34 @@
 @font-face {
-    font-family: 'headerfont'; /*a name to be used later*/
-    src: url('headerfont.otf'); /*URL to font*/
+    font-family: 'headerfont'; /* A name to be used later */
+    src: url('headerfont.otf'); /* URL to font */
 }
 
-body {
-  background-color: #1f1e1d;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #1f1e1d;
+}
+
+.mainheader {
+    width: 100%;
+    text-align: center; /* Center elements inside the header */
+    position: relative; /* Establish a positioning context */
 }
 
 .mainheader h2 {
-  color: white;
-  font-family: 'headerfont';
-  font-size: 500%;
-  position: relative;
-  left: 35%;
+    color: white;
+    font-family: 'headerfont';
+    font-size: 5em; /* Adjusted for readability */
+    margin: 0; /* Remove default margin */
 }
-a {
-  position: relative;    /* Ensure the anchor can be moved */
-  left: 45%;             /* Move the anchor 10% to the right */
-  color: orange;         /* Change the text color to orange */
-  text-decoration: none; /* Remove the underline */
-  font-size: 150%;       /* Set the font size to 10px */
+
+.mainheader a {
+    color: orange; /* Change the text color to orange */
+    text-decoration: none; /* Remove the underline */
+    font-size: 1.5em; /* Adjusted font size */
+    display: block; /* Make the anchor a block element to center it */
+    margin: 0 auto; /* Center the anchor */
+    position: relative;
+    top: -10%; /* Adjust this value to move closer to the h2 */
 }
