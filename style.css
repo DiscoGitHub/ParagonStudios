@@ -36,5 +36,5 @@ html, body {
     display: block; /* Make the anchor a block element to center it */
     margin: 0 auto; /* Center the anchor */
     position: relative;
-    top: -10px; /* Adjust this value to move closer to the h2 */
+    top: - 10px; /* Adjust this value to move closer to the h2 */
 }
