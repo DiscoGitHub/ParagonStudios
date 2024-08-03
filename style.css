@@ -3,6 +3,12 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
+.rectangle {
+    width:200px;
+    height:100px;
+    background:#0d0c14;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -31,10 +37,4 @@ html, body {
     margin: 0 auto; /* Center the anchor */
     position: relative;
     top: -10px; /* Adjust this value to move closer to the h2 */
-}
-
-.rectangle {
-    width:200px;
-    height:100px;
-    background:#0d0c14;
 }
