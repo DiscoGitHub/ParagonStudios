@@ -3,12 +3,6 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
-#rectangle {
-    width:200px;
-    height:100px;
-    background:#0d0c14;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -16,25 +10,11 @@ html, body {
     background-color: #1f1e1d;
 }
 
+#rectangle {
+    /* Add styles for #rectangle if needed */
+}
+
 .mainheader {
-    width: 100%;
-    text-align: center; /* Center elements inside the header */
-    position: relative; /* Establish a positioning context */
-}
-
-.mainheader h2 {
-    color: white;
-    font-family: 'headerfont';
-    font-size: 5em; /* Adjusted for readability */
-    margin: 0; /* Remove default margin */
-}
-
-.mainheader a {
-    color: orange; /* Change the text color to orange */
-    text-decoration: none; /* Remove the underline */
-    font-size: 1.5em; /* Adjusted font size */
-    display: block; /* Make the anchor a block element to center it */
-    margin: 0 auto; /* Center the anchor */
-    position: relative;
-    top: -30px; /* Adjust this value to move closer to the h2 */
+    position: absolute;
+    left: 30%; /* Use 'left' to move it to the right from the left side */
 }
