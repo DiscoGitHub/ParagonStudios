@@ -3,6 +3,12 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
+#rectangle{
+    width:200px;
+    height:100px;
+    background:#282c2e;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -25,10 +31,4 @@ html, body {
     position: absolute;
     left: 50%; /* Use 'left' to move it to the right from the left side */
     transform: translateX(-50%); /* Center the image */
-}
-
-#rectangle{
-    width:200px;
-    height:100px;
-    background:#171515;
 }
