@@ -26,3 +26,9 @@ html, body {
     left: 50%; /* Use 'left' to move it to the right from the left side */
     transform: translateX(-50%); /* Center the image */
 }
+
+#rectangle{
+    width:200px;
+    height:100px;
+    background:#171515;
+}
