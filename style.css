@@ -10,8 +10,7 @@ html, body {
     background-color: #1f1e1d;
 }
 
-
-.mainheader a {
+#mainheader a {
     color: orange; /* Change the text color to orange */
     text-decoration: none; /* Remove the underline */
     font-size: 1.5em; /* Adjusted font size */
@@ -19,10 +18,11 @@ html, body {
     margin: 0 auto; /* Center the anchor */
     position: relative;
     top: -10px; /* Adjust this value to move closer to the h2 */
+    font-family: 'headerfont'; /* Apply the custom font */
 }
 
-
-.mainheader img {
+#mainheader img {
     position: absolute;
     left: 50%; /* Use 'left' to move it to the right from the left side */
+    transform: translateX(-50%); /* Center the image */
 }
