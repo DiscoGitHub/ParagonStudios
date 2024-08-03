@@ -3,15 +3,6 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
-#rectangle {
-    width:200%;
-    height:180px;
-    background:#282c2e;
-    position:fixed;
-    top:80;
-    left:0;
-}
-
 html, body {
     margin: 0;
     padding: 0;
