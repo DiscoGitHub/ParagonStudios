@@ -3,7 +3,7 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
-.rectangle {
+#rectangle {
     width:200px;
     height:100px;
     background:#0d0c14;
