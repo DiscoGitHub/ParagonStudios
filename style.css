@@ -3,11 +3,9 @@
     src: url('headerfont.otf'); /* URL to font */
 }
 
-#rectangle{
-    width:200px;
-    height:100px;
-    background:#282c2e;
-}
+<svg>
+  <rect id="box" x="0" y="0" width="50" height="50"/>
+</svg>
 
 html, body {
     margin: 0;
