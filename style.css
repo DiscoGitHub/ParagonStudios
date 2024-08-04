@@ -29,7 +29,7 @@ html, body {
 }
 .sidebar {
   height: 750px;
-  width: 300px;
+  width: 100px;
   background-color: #333130;
   position: relative;
   top: -27px;
