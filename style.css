@@ -17,12 +17,20 @@ html, body {
     display: block; /* Make the anchor a block element to center it */
     margin: 0 auto; /* Center the anchor */
     position: relative;
-    top: -10px; /* Adjust this value to move closer to the h2 */
+    top: 300px; /* Adjust this value to move closer to the h2 */
     font-family: 'headerfont'; /* Apply the custom font */
+    left: 43%;
 }
 
 #mainheader img {
     position: absolute;
     left: 50%; /* Use 'left' to move it to the right from the left side */
     transform: translateX(-50%); /* Center the image */
+}
+.sidebar {
+  height: 750px;
+  width: 300px;
+  background-color: #333130;
+  position: relative;
+  top: -27px;
 }
