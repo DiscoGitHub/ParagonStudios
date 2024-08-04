@@ -28,6 +28,8 @@ html, body {
     transform: translateX(-50%); /* Center the image */
 }
 .sidebar {
+  border-radius: 25px;
+  padding: 20px;
   height: 750px;
   width: 100px;
   background-color: #333130;
