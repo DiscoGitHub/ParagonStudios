@@ -19,7 +19,7 @@ html, body {
     position: relative;
     top: 300px; /* Adjust this value to move closer to the h2 */
     font-family: 'headerfont'; /* Apply the custom font */
-    left: 43%;
+    left: 50%;
 }
 
 #mainheader img {
