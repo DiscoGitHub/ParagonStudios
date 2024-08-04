@@ -34,5 +34,5 @@ html, body {
   width: -10px;
   background-color: #333130;
   position: relative;
-  top: 10px;
+  top: -10px;
 }
