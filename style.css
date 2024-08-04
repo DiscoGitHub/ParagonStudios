@@ -17,9 +17,9 @@ html, body {
     display: block; /* Make the anchor a block element to center it */
     margin: 0 auto; /* Center the anchor */
     position: relative;
-    top: 300px; /* Adjust this value to move closer to the h2 */
+    top: 200px; /* Adjust this value to move closer to the h2 */
     font-family: 'headerfont'; /* Apply the custom font */
-    left: 47%;
+    left: 45%;
 }
 
 #mainheader img {
